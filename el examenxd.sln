@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentación", "Documentación", "{C059EA9E-B74C-431C-A93A-ACA83FB7F401}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modelo", "Modelo", "{A0817130-509A-46EB-923B-1F5B5333A805}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pruebas", "Pruebas", "{4EC92E7F-C8D2-4324-ABC6-8725ABBA4205}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaz", "Interfaz", "{AE09685F-E33D-4A3A-AD65-4001887BB22C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Encabezados", "Encabezados", "{C4E675EB-9351-4BAE-99EE-7E5F415AAA11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fuentes", "Fuentes", "{4CBCAF9C-55F1-4A48-B4A6-FE300997461F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Encabezados", "Encabezados", "{22E61EF3-C69D-4073-8F99-5686063ADD88}"
+	ProjectSection(SolutionItems) = preProject
+		Cursos.h = Cursos.h
+		Estudiante.h = Estudiante.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fuentes", "Fuentes", "{9F5349CA-D34E-48BC-A691-94F1B303608F}"
+	ProjectSection(SolutionItems) = preProject
+		Cursos.cpp = Cursos.cpp
+		Estudiante.cpp = Estudiante.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Especificaciones", "Especificaciones", "{CDB9EAB8-5C43-46B9-8ABE-BF9C74E12BAB}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4E675EB-9351-4BAE-99EE-7E5F415AAA11} = {AE09685F-E33D-4A3A-AD65-4001887BB22C}
+		{4CBCAF9C-55F1-4A48-B4A6-FE300997461F} = {AE09685F-E33D-4A3A-AD65-4001887BB22C}
+		{22E61EF3-C69D-4073-8F99-5686063ADD88} = {A0817130-509A-46EB-923B-1F5B5333A805}
+		{9F5349CA-D34E-48BC-A691-94F1B303608F} = {A0817130-509A-46EB-923B-1F5B5333A805}
+		{CDB9EAB8-5C43-46B9-8ABE-BF9C74E12BAB} = {C059EA9E-B74C-431C-A93A-ACA83FB7F401}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20F5EE9D-6428-4844-9C54-545D4CA3CE9B}
+	EndGlobalSection
+EndGlobal
